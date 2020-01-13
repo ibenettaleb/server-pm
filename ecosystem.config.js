@@ -7,9 +7,9 @@ module.exports = {
     production: {
       user: 'abenettaleb',
       host: 'ec2-18-219-122-59.us-east-2.compute.amazonaws.com',
-      key: '~/.ssh/abenettaleb.pem',
+      key: '../abenettaleb.pem',
       ref: 'origin/master',
-      repo: 'git@github.com:ibenettaleb/server-pm.git',
+      repo: 'https://github.com/ibenettaleb/server-pm.git',
       path: '/home/ubuntu/server',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
