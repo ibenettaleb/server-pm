@@ -5,7 +5,7 @@ module.exports = {
   }],
   deploy: {
     production: {
-      user: 'ubuntu',
+      user: 'abenettaleb',
       host: 'ec2-18-219-122-59.us-east-2.compute.amazonaws.com',
       key: '~/.ssh/abenettaleb.pem',
       ref: 'origin/master',
